@@ -1,0 +1,13 @@
+apply plugin: "antlr"
+apply plugin: "application"
+apply plugin: "java"
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	antlr "org.antlr:antlr4:4.7.1"
+}
+
+mainClassName = "AntlrMain"
